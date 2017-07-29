@@ -1,0 +1,146 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>JqueryWorkout</title>
+        <script src="../../js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            
+            $(document).on("click", "#showform", function () {
+                $("#formdiv").show();
+            });
+            $(document).on("click", "#showinputinform", function () {
+                $("#name").show();
+                $("#reg").show();
+                $("#cell").show();
+            });
+
+
+
+            $(document).on("click", "#putvalueinform", function () {
+                $("#name").val('myval1');
+                $("#reg").val('myval2');
+                $("#cell").val('myval3');
+            });
+            $(document).on("click", "#loadrightpart", function () {
+                $("#rightform").show();
+                var obj = {
+                    "1": "sl value 1",
+                    "2": "sl value 2"
+                };
+                var htmlPart = "";
+                $.each(obj, function (key, value) {
+                    //htmlPart = htmlPart + "<option value=" + key + ">" + value + "</option";
+                    $("#drmale").append("<option value=" + key + ">" + value + "</option");
+                    $("#drfemale").append("<option value=" + key + ">" + value + "</option");
+                });
+                
+            });
+
+            $(document).on("click", "#ajax", function () {
+                $.ajax({
+                    Type: "GET",
+                    url: "/Home/Ajax",
+                    contentType: "application/json",
+                    data: JSON.stringify(),
+                    success: function (data) {
+                        alert(data.id);
+                    },
+                    error: function(response) {
+                        alert(response);
+                    }
+                });
+            });
+        </script>
+    
+</head>
+<body>
+    <div> 
+        <table>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="button" id="showform" value="View Form" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" id="showinputinform" value="View Textbox" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" id="putvalueinform" value="Viw Data on textboxes" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" id="loadrightpart" value="load data on right" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="button" id="ajax" value="load by ajax" /></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="formdiv" style="display:none;background-color:bisque;width:300px;height:300px">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                
+                                                <input type="text" id="name" style="display:none" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" id="reg" style="display:none"  />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" id="cell" style="display:none"  />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                 </div>
+                            </td>
+                            <td>
+                                <div id="rightform" style="display:none;background-color:gainsboro;width:300px;height:300px">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="male" name="gender" />
+                                                <input type="radio" id="female" name="gender"  />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select id="drmale">
+
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select id="drfemale">
+
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\csc.exe
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\System.Collections.Immutable.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\System.Reflection.Metadata.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\vbc.exe
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\VBCSCompiler.exe
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\roslyn\VBCSCompiler.exe.config
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.dll.config
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.pdb
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.Web.Infrastructure.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Helpers.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Mvc.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Razor.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Deployment.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Razor.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Razor.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Deployment.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Razor.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Helpers.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Mvc.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\obj\Debug\AssetTrackingApp.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\obj\Debug\AssetTrackingApp.pdb
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Antlr3.Runtime.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Newtonsoft.Json.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Optimization.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\WebGrease.dll
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Antlr3.Runtime.pdb
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\Newtonsoft.Json.xml
+G:\MVC Training\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Optimization.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\csc.exe
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\System.Collections.Immutable.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\vbc.exe
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\VBCSCompiler.exe
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\roslyn\VBCSCompiler.exe.config
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.dll.config
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.pdb
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Antlr3.Runtime.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Newtonsoft.Json.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Helpers.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Mvc.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Optimization.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Razor.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Deployment.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Razor.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\WebGrease.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Antlr3.Runtime.pdb
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\Newtonsoft.Json.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Optimization.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Razor.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Deployment.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Webpages.Razor.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Helpers.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\System.Web.Mvc.xml
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\obj\Debug\AssetTrackingApp.dll
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\obj\Debug\AssetTrackingApp.pdb
+D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\obj\Debug\AssetTrackingApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,104 @@
+﻿@{
+    Layout=null;
+}
+<html>
+    <head>
+        <script src="../../js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).on("submit", "#myform", function () {
+                var name = $("#name").val();
+                var reg = $("#reg").val();
+
+                var rdMale = $('#male').is(':checked');
+                var rdFemale = $('#female').is(':checked');
+                if (name == "" || reg == "" || (rdMale == "" && rdFemale == "")) {
+                    alert("Please fill up all the fields");
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            });
+            $(document).on("click", "#reset",function(){
+                $("#name").val("");
+                $("#reg").val("");
+                $("#male").prop("checked", false);
+                $("#female").prop("checked", false);
+                $("#femalediv").hide();
+                $("#malediv").hide();
+                
+            });
+
+            $(document).on("click", "#male",function(){
+
+                $("#femalediv").hide();
+                $("#malediv").show();
+            });
+            $(document).on("click", "#female", function () {
+                
+                $("#malediv").hide();
+                $("#femalediv").show();
+            });
+           
+        </script>
+    </head>
+<body>
+
+
+<form action="" method="post" onsubmit="return Validation()" id="myform">
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+    </table>
+    <div>
+      <label>Name</label>  <input type="text" name="" id="name" />
+    </div>
+    <div>
+        <label>Reg</label><input type="text" name="" id="reg" />
+    </div>
+    <div>
+        <input type="text" name="" id="name" />
+    </div>
+    <div >
+        <label>gender: </label>
+        Male<input type="radio" id="male" name="gender" />
+        Female<input type="radio" id="female" name="gender" />
+    </div>
+    <div id="malediv" style="display:none">
+       <label>Male Info</label> <input name="" type="text" id="mgname" />
+
+       <select>
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+       </select>
+    </div>
+    <div id="femalediv" style="display:none">
+        <label>Female Info</label><input name="" type="text" id="ggname" />
+
+        <select>
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+       </select>
+    </div>
+    <div>
+        <input type="submit" />
+         <input type="button" value="reset" id="reset" />
+    </div>
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: AssetTrackingApp, Configuration: Debug Any CPU ------
+1>  AssetTrackingApp -> D:\MVC5\Polin\AssetTrackingApp\AssetTrackingApp\bin\AssetTrackingApp.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
